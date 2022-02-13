@@ -78,5 +78,35 @@ echo --$num1; // pre decrement
 echo"<br>";
 $num1 = 100;
 echo $num1--; // post decrement
+// logical operations
+$num1 = 200;
+$num2 = 100;
+if ($num1 == 200 and $num2 == 100) {      // and
+    echo"<br>";
+    echo "Hello Class!";
+}
+$num3 = 2000;
+$num4 = 1500;
+if ($num3 == 2000 or $num4 == 500) {   //or
+    echo"<br>";
+    echo "Hello class!";
+}
+$num1 = 100;
+$num2 = 50;
+
+if ($num1 == 100 xor $num2 == 80) {  // xor
+    echo"<br>";
+    echo "Good morning class!";
+}
+$num1 = 500;
+$y = 50;
+
+if ($num1== 100 && $num2 == 50) {   // $$
+    echo"<br>";
+    echo "Good morning!";
+}
+// if stat
+
+
 
 
